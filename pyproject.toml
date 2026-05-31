@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [project]
 name = "tatamishot"
-version = "0.11.2"
+version = "0.11.3"
 description = "Plex frame/clip capture web app"
 repository = "https://github.com/benjcunningham/tatami-shot"
 requires-python = ">=3.14"
@@ -66,7 +66,7 @@ lines-after-imports = 2
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^9.0.1"
-pytest-asyncio = "^1.1.0"
+pytest-asyncio = "^1.4.0"
 pytest-cov = "^7.0.0"
 ruff = "^0.15.14"
 mypy = "^2.1.0"
